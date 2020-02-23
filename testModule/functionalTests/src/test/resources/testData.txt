@@ -1,0 +1,3 @@
+NEW_TODO_ITEM_1=new item to be done 1
+NEW_TODO_ITEM_2=new item to be done 2
+NEW_TODO_ITEM_3=new item to be done 3

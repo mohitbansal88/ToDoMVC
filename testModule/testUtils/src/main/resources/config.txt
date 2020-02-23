@@ -1,0 +1,2 @@
+BASE_URL=http://todomvc.com/examples/react/#/
+DEFAULT_WAIT=10

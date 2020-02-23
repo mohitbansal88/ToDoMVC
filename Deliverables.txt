@@ -1,0 +1,75 @@
+If you joined a team of six engineers as the only engineer with testing experience and could implement any process you would like, how would you ensure that the team delivers high quality software?
+1. Find out what are team capabilities.
+    What tasks they have performed in their previous projects.
+    What nature of work they have done.
+    How many of them have testing experience and of what nature
+    How many of them have development experience and of what nature
+    What programming language they know
+2. Based on their past experiences, help them learn
+    Programming language
+    Testing approach, methodologies and techniques.
+    Designing Test cases, suites and plans.
+3. Share Testing tutorials and open source Testing Framework with the Team.
+4. Setup weekly session, where individual will share their knowledge what they have learned new in testing and discuss the problems they are facing.
+5. Define process and guidelines on how testing will be done.
+6. Setup review procedure - for code, pull requests should be reviewed by a peer QA and a dev. For test design, the designs and scenarios should be reviewed by a BA and a peer QA
+7. Setup weekly session and review
+    How they are following process
+    How they are creating test cases and test plan
+    Take feedback and improve process and guidelines
+
+Once they understand how testing is done, how to create test cases.
+8. Design test framework with team.
+9. Once design is finalized, then implement it, involving whole team into the process.
+10. Start automating with small features and then grow to bigger features.
+
+
+If you were tasked with writing testing notes for this acceptance criteria (point 1 and 2), what would you write?
+1. Add a new todo item
+    a. When an item is added, it should be marked as active by default
+    b. Item should be added at the bottom of the list
+    c. Item text should be same as that added
+    d. Item should appear in Active and All filter, and not in Completed filter
+    e. Item can be marked done
+    f. Item can be deleted
+    g. Item can be edited
+    h. Toggle All should changed the status of this item
+    i. If all item are marked done, and then a new item is added then also it should be marked undone
+    j. Count of items to do should increment when item is added
+    k. Check limit on number of items in list, and try to add an item when list contains maximum possible items
+    l. Check limit on number of active items in list, and try to add an item when list contains maximum possible active items
+    m. Check size of item text and try inputting more chars
+    n. Enter special char in name
+    o. Enter different language chars
+    p. Enter only spaces
+    q. Enter only "."
+    r. Enter duplicate name as a done/undone item
+    s. Enter Empty
+    t. Enter digits
+    u. Add new item after clicking on clear completed button
+    v. Delete an item and re-add the same item
+    w. Sql injection
+    x. Spaces with alphanums
+    y. Add item when filtered by Active
+    z. Add item when filtered by Completed
+    aa. Enter javascript
+    ab. Enter try, catch, exception, alert(document.cookie);, UNICODE, ASCII, return, ENTER,
+
+2. Remove an existing todo item
+    a. Remove the only item in list
+    b. Remove the only active item in list
+    c. Remove the only done item in list
+    d. Remove when filter by Active
+    e. Remove when filter by Completed
+    f. On remove, item should disappear from all filters
+    g. On removing active item, count should decrease
+    h. On removing done item, count should not decrease
+    i. Remove one of the duplicate items
+    j. Remove an item and re-add the same item
+
+
+Tell us what else you might have done for the test if you had more time.
+1. Add more test scenarios the way described above
+2. Add tests for static content, as in page header, placeholders, text displayed to use, filter names, button names
+3. Add a BDD layer (using Cucumber) so that non-technical people can also walk-through the test scenarios
+

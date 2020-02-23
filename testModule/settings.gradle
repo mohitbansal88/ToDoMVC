@@ -1,0 +1,5 @@
+rootProject.name = 'testModule'
+include 'restTests'
+include 'testUtils'
+include 'functionalTests'
+

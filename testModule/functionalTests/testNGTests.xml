@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tetNG Test" verbose="10" allow-return-values="true">
+    <test name="testNG test">
+        <groups>
+            <run>
+                <include name="toDoList"/>
+                <include name="clearCompleted"/>
+                <include name="status"/>
+                <include name="filter"/>
+
+            </run>
+        </groups>
+        <packages>
+            <package name="functional"/>
+        </packages>
+    </test>
+</suite>

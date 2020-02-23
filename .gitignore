@@ -1,0 +1,45 @@
+**/out/**
+**/build/**
+.gradle
+**/.DS_Store
+.idea
+**/.gradle
+**/bin
+
+
+#generated files
+*.pyc
+*.tar.gz
+_etc_hosts*
+*.DS_Store
+
+#backup
+*.*~
+
+#idea
+.idea
+*.iml
+*.ipr
+*.iws
+
+#eclipse
+#Note: This assumes output files are put in 'classes/'
+.classpath
+.project
+.settings/
+classes/
+
+#gradle
+.gradle
+build
+git/
+generated/
+tmp/
+*.jar
+
+#vim & emacs
+*.elc
+*.orig
+*.rej
+*.mergebackup
+*.swp

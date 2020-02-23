@@ -1,0 +1,12 @@
+<suite name="rest Test" verbose="10" allow-return-values="true">
+    <test name="rest test">
+        <groups>
+            <run>
+                <include name="rest"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="functional"/>
+        </packages>
+    </test>
+</suite>

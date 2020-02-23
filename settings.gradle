@@ -1,0 +1,4 @@
+rootProject.name = 'ToDoMVC'
+
+include "testModule:functionalTests", "testModule:testUtils", "testModule:restTests", "testModule"
+
